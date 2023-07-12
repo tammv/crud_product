@@ -1,0 +1,33 @@
+import React, { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
+import axios from "axios";
+
+const Product = () => {
+  const [product, setProduct] = useState({
+    name: "",
+    price: "",
+  });
+  const { id } = useParams();
+  useEffect(() => {
+    loadProducts();
+  }, []);
+  const loadProducts = async () => {
+    const res = await axios.get(`http://localhost:3000/products/${id}`);
+    setProduct(res.data);
+  };
+  return (
+    <div className="container py-4">
+      <Link className="btn btn-primary" to="/">
+        Back to Home
+      </Link>
+      <h1 className="display-4">Product Id: {id}</h1>
+      <hr />
+      <ul className="list-group w-50">
+        <li className="list-group-item">Name: {product.name}</li>
+        <li className="list-group-item">Price: {product.price}</li>
+      </ul>
+    </div>
+  );
+};
+
+export default Product;

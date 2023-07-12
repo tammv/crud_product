@@ -1,0 +1,50 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "name": "mei 2",
+      "price": "3535"
+    },
+    {
+      "id": 7,
+      "name": "Kurtis 0712",
+      "price": "1000"
+    },
+    {
+      "name": "kaido",
+      "price": "8000",
+      "id": 9
+    },
+    {
+      "name": "mai van tam",
+      "price": "2000",
+      "id": 10
+    },
+    {
+      "name": "Tom",
+      "price": "122",
+      "id": 12
+    },
+    {
+      "name": "athena",
+      "price": "77777",
+      "id": 13
+    },
+    {
+      "name": "arena",
+      "price": "2222",
+      "id": 14
+    },
+    {
+      "name": "ta3333",
+      "price": "111111",
+      "id": 15
+    }
+  ],
+  "users": [
+    {
+      "username": "admin",
+      "password": "123456"
+    }
+  ]
+}

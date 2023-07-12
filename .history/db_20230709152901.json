@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "price": "1000"
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "price": "1000"
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "price": "1000"
+    },
+    {
+      "id": 4,
+      "name": "Patricia Lebsack",
+      "price": "1000"
+    },
+    {
+      "id": 5,
+      "name": "Chelsey Dietrich",
+      "price": "1000"
+    },
+    {
+      "id": 6,
+      "name": "Mrs. Dennis Schulist",
+      "price": "1000"
+    },
+    {
+      "id": 7,
+      "name": "Kurtis Weissnat",
+      "username": "Elwyn.Skiles"
+    },
+    {
+      "name": "mai van tam",
+      "username": "ádasdasdasd",
+      "id": 8
+    }
+  ]
+}

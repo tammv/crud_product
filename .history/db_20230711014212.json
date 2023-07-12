@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "mei mei",
+      "price": "2000"
+    },
+    {
+      "id": 2,
+      "name": "mei 2",
+      "price": "1000"
+    },
+    {
+      "id": 7,
+      "name": "Kurtis 0712",
+      "price": "1000"
+    },
+    {
+      "id": 8,
+      "name": "mai van tam",
+      "price": "1000"
+    },
+    {
+      "name": "kaido",
+      "price": "8000",
+      "id": 9
+    },
+    {
+      "name": "mai van tam",
+      "price": "2000",
+      "id": 10
+    },
+    {
+      "name": "Tom",
+      "price": "122",
+      "id": 12
+    }
+  ]
+}
